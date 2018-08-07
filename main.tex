@@ -1,0 +1,105 @@
+\documentclass[10pt,a4paper]{altacv}
+\geometry{left=1cm,right=9cm,marginparwidth=6.8cm,marginparsep=1.2cm,top=1cm,bottom=1cm}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[default]{lato}
+\usepackage{hyperref}
+
+% cores
+% orange f48024
+% blue 0086e6
+% green 059a91
+% market EC914D
+\definecolor{mainColor}{HTML}{0086e6}
+\definecolor{SlateGrey}{HTML}{2E2E2E}
+\definecolor{LightGrey}{HTML}{666666}
+\colorlet{heading}{mainColor}
+\colorlet{accent}{mainColor}
+\colorlet{emphasis}{SlateGrey}
+\colorlet{body}{LightGrey}
+
+\renewcommand{\itemmarker}{{\small\textbullet}}
+\renewcommand{\ratingmarker}{\faCircle}
+
+\addbibresource{sample.bib}
+
+\begin{document}
+\name{Guilherme Bertoni Machado}
+\tagline{Gestor Educacional, Professor Universitário}
+
+% Cropped to square from https://avatars1.githubusercontent.com/u/66689?v=3&s=460, CC-BY 2.0
+\photo{2.5cm}{foto.jpg}
+\personalinfo{%
+  
+  \email{\href{mailto:gbmachado@senacrs.com.br}{gbmachado@senacrs.com.br}}
+% \phone{000-00-0000}
+% \mailaddress{Av. XXX, 380 apto 104-A - XXXXX-400 Brasil}
+  \location{Porto Alegre, RS | Brasil}
+  \homepage{\href{http://lattes.cnpq.br/6921640383231668}{lattes/cnpq}}
+  \twitter{\href{http://www.twitter.com/bertoniMachado}{@bertoniMachado}}
+  \linkedin{\href{https://www.linkedin.com/in/guilherme-bertoni-machado/}{linkedin.com/in/guilherme-bertoni-machado}}
+  \faFacebook{\href{https://www.facebook.com/gbertonimachado}{ facebook.com/gbertonimachado}}
+%  \github{\href{https://www.github.com/XXX}{github.com/XXXX}} 
+}
+
+\begin{adjustwidth}{}{-8cm}
+\makecvheader
+\end{adjustwidth}
+
+%% sidebar
+\cvsection[page1sidebar]{Experiência Profissional}
+
+
+\cvevent{Professor Universitário}{Faculdade Senac Porto Alegre}{2007 -- Atual}{Porto Alegre, Brasil}
+\begin{itemize}
+\item Professor e Orientador, Graduação e Pós-graduação
+\end{itemize}
+\divider
+
+\cvevent{Coordenador Escola de Tecnologia}{Faculdade Senac Porto Alegre}{Ago 2017 -- Ago 2018}{Porto Alegre, Brasil}
+\begin{itemize}
+\item Responsável pela gestão dos cursos superiores de tecnologia em Análise e Desenvolvimento de Sistemas, Redes de Computadores, Sistemas para Internet e Produção Multimídia.
+\item Liderança e aconselhamento
+\end{itemize}
+\divider
+
+\cvevent{Coordenador ADS}{Faculdade Senac Porto Alegre}{Jan 2011 -- Ago 2017}{Porto Alegre, Brasil}
+\begin{itemize}
+\item Responsável pela gestão do curso superior de tecnologia em Análise e Desenvolvimento de Sistemas.
+\item Liderança e aconselhamento
+\end{itemize}
+\divider
+
+\cvevent{Membros de Comissão Assessora de área}{INEP/MEC}{2014 --  2016}{Brasília, Brasil}
+\begin{itemize}
+\item Membro da Comissão Assessora de Área de Tecnologia em Análise e Desenvolvimento de Sistemas ENADE 2014.
+\end{itemize}
+\divider
+
+\cvevent{Serviços técnicos especializados , Instituto de Geociências, Departamento de Paleontologia e Estratigrafia}{Universidade Federal do Rio Grande do Sul}{2006 -- 2007}{Porto Alegre, Brasil}
+\begin{itemize}
+\item Consultoria em Informática.
+\end{itemize}
+
+\cvsection{Pontos Fortes}
+
+\cvtag{Docência} 
+\cvtag{Liderança}
+\cvtag{Pesquisa}
+\cvtag{TCC}
+\cvtag{ENADE}
+
+\divider\smallskip
+
+\cvtag{Métodos Ágeis}
+\cvtag{Mentoria}
+\cvtag{Planejamento Estratégico}
+\cvtag{Palestras}
+
+\cvsection{Contribuições às Comunidades}
+\wheelchart{1.5cm}{0.5cm}{%
+  20/12em/accent!40/Divulgação de ofertas de estágio e emprego, 
+  30/9em/accent/Apoiador de Conferências,
+  5/8em/accent!20/Palestras Técnicas
+}
+\end{document}
